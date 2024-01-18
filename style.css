@@ -6,7 +6,7 @@
 }
 
 .navbar {
-  background-color: rgb(107, 19, 189) !important;
+  background-color: rgb(87, 17, 154) !important;
 }
 
 .navbar-nav {
@@ -21,7 +21,7 @@
 }
 
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(101, 101, 101, 0.6);
   padding: 20px;
   border-radius: 15px;
   -webkit-backdrop-filter: blur(5px);
