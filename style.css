@@ -17,6 +17,7 @@
 
 .jumbotron {
   background-image: url("assets/Img/bg-header.svg");
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -27,4 +28,41 @@
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
   box-shadow: 0px 0px 48.5px rgba(0, 0, 0, 0.38), 0px 0px 49px rgba(0, 0, 0, 0.5);
+}
+
+.accordion-button {
+  color: white;
+  background-color: rgba(101, 101, 101, 0.6);
+}
+
+.accordion-body {
+  background-color: rgba(101, 101, 101, 0.6);
+}
+
+.accordion-collapse {
+  color: white;
+  font-size: medium;
+  background-color: rgba(101, 101, 101, 0.6);
+}
+
+.accordion-flush {
+  background-color: rgba(101, 101, 101, 0.6);
+  font-size: x-large;
+}
+
+#floatingInput {
+  background-color: rgba(101, 101, 101, 0.6);
+  border-radius: 15px;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 48.5px rgba(0, 0, 0, 0.38), 0px 0px 49px rgba(0, 0, 0, 0.5);
+}
+
+#scrollToTopButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 106, 255, 0.8);
+  border-radius: 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.65);
 }/*# sourceMappingURL=style.css.map */

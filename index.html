@@ -7,6 +7,7 @@
     <title>Daniel Surlaru</title>
 
     <link rel="shortcut icon" href="assets/Img/logo.png" type="image/x-icon">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
@@ -24,39 +25,41 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Acasă</a>
+                        <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">Acasă</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Servicii</a>
+                        <a class="nav-link" href="#scrollspyHeading2">Servicii</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Studio</a>
+                        <a class="nav-link" href="#scrollspyHeading3">Studio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Listen & Download</a>
+                        <a class="nav-link" href="#scrollspyHeading4">Listen & Download</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Întrebări frecvente</a>
+                        <a class="nav-link" href="#scrollspyHeading5">Întrebări frecvente</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#scrollspyHeading6">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" >
+    </div>
 
     <div class="jumbotron p-5 ms-auto">
         <div class="container-fluid p-5">
             <div class="row align-items-center text-center text-white">
                 <div class="col">
-                    <img class="rounded-circle" width="200" src="assets/Img/avatar.jpg" alt="Daniel Surlaru">
+                    <img class="rounded-circle shadow-lg" width="350" src="assets/Img/avatar.jpg" alt="Daniel Surlaru">
                 </div>
                 <div class="col">
-                    <h4>Salut! Bine ai venit pe pagina mea oficială. Vei găsi o varietate largă de lucrări și compoziții muzicale proprii, cât și lucrări WEB.</h4>
-                    <button type="button" class="btn btn-primary btn-lg shadow-sm">Large button</button>
+                    <h3 class="fw-light fs-larger p-5">Salut! Bine ai venit pe pagina mea oficială. Vei găsi o varietate largă de lucrări și compoziții muzicale proprii, cât și proiecte WEB.</h3>
+                    <button type="button" class="btn btn-primary btn-lg shadow-sm">Descarcă CV</button>
                 </div>
-                <div class="col text-nowrap text">
+                <div class="col text-nowrap">
                     <a href="https://www.facebook.com/dan.surlaru.promusic" class="btn text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i class="bi bi-facebook h1" ></i></a>
 
                     <a href="https://instagram.com/danypromusic" class="btn text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><i class="bi bi-instagram h1"></i></a>
@@ -71,9 +74,9 @@
         </div>
     </div>
 
-    <div class="text-center" style="background-color: rgb(226, 226, 226);">
+    <div class="text-center" id="scrollspyHeading2" style="background-color: rgb(226, 226, 226);">
         <h1 class="p-5">Servicii</h1>
-        <div class="card-group rounded-4 shadow-sm" style="gap: 20px; padding-left: 20px; padding-right: 20px; padding-bottom: 15px;">
+        <div class="card-group" style="gap: 20px; padding-left: 20px; padding-right: 20px; padding-bottom: 15px;">
             <div class="card">
                 <img src="assets/Img/card-servicii/piano-notes.jpg" alt="">
                 <div class="card-body">
@@ -146,9 +149,9 @@
             </div>
         </div>
 
-        <div>
+        <div id="scrollspyHeading3">
             <h1 class="p-5">Studio</h1>
-            <h3>Echipament și aparatura necesara intr-un homestudio</h3>
+            <h3 class="fw-light">Echipament și aparatura necesara intr-un homestudio</h3>
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -211,7 +214,7 @@
             </div>
         </div>
 
-        <div class="p-5 bg-dark text-white">
+        <div class="p-5 bg-dark text-white" id="scrollspyHeading4">
             <h1>Listen & Download</h1>
             <div class="container">
                 <div class="row">
@@ -241,9 +244,9 @@
         </div>
     </div>
 
-    <div class="p-5 bg-secondary text-white">
+    <div class="pb-5 bg-secondary text-white" id="scrollspyHeading5">
         <div class="container">
-            <h1 class="text-center">Întrebări frecvente</h1>
+            <h1 class="text-center p-5">Întrebări frecvente</h1>
             <div class="row">
                 <div class="col">
 
@@ -313,6 +316,67 @@
             </div>
         </div>
     </div>
+
+    <div class="p-5 text-white text-center" id="scrollspyHeading6" style="background-color: rgb(82, 82, 82);">
+        <h1 class="">Contact</h1>
+        <h3 class="p-5 fw-light">Nu ezita să-mi scrii un mesaj</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form action="submit">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Nume" pattern="[a-zA-Z]" required>
+                            <label for="floatingInput">Nume</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="e-mail" pattern="[a-zA-Z0-9]" required>
+                            <label for="floatingInput">e-mail</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Subiect" pattern="[a-zA-Z0-9]" required>
+                            <label for="floatingInput">Subiect</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="floatingInput" placeholder="Mesaj" id="floatingTextarea2" style="height: 100px" pattern="[a-zA-Z0-9]" required></textarea>
+                            <label for="floatingTextarea2">Mesaj</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg mt-5">Trimite</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid bg-dark fw-lighter text-white text-center p-1">
+            <div class="row align-items-center">
+                <div class="col">
+                    <img width="150" src="assets/Img/logo.png" alt="">
+                </div>
+                <div class="col text-start">
+                    <h3><i class="bi bi-at"></i> surlaru@bk.ru</h3>
+                    <h3><i class="bi bi-telephone-fill"></i> +373 79 66 00 24</h3>
+                </div>
+                <div class="col">
+                    <div class="col text-nowrap">
+                        <a href="https://www.facebook.com/dan.surlaru.promusic" class="btn text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i class="bi bi-facebook h1" ></i></a>
+    
+                        <a href="https://instagram.com/danypromusic" class="btn text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><i class="bi bi-instagram h1"></i></a>
+    
+                        <a href="https://www.linkedin.com/in/dan-surlaru-promusic-418a072a3/" class="btn text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="LinkedIn"><i class="bi bi-linkedin h1"></i></a>
+    
+                        <a href="https://www.youtube.com/@dansurlaru/featured" class="btn text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="YouTube"><i class="bi bi-youtube h1"></i></a>
+                        
+                        <a href="https://open.spotify.com/artist/4viXypcCjfNp3LrDQXdzbf?go=1&sp_cid=47110619dd8294edc81742d0c7dd1099&utm_source=embed_player_p&utm_medium=desktop&nd=1&dlsi=eaed09e7523448f3" class="btn text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Spotify"><i class="bi bi-spotify h1"></i></a>
+                    </div>    
+                </div>
+                <h6 class="text-secondary">© 2024 Daniel Surlaru</h6>
+            </div>
+        </div>
+    </footer>
+
+<button onclick="scrollToTop()" id="scrollToTopButton" class="btn btn-primary" title="Go to top"><i class="bi bi-arrow-up-circle-fill"></i></button>
+
 
 </body>
 </html>
