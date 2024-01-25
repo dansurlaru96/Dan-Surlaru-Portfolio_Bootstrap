@@ -10,6 +10,10 @@
     font-weight: bold;
     letter-spacing: 2px;
 }
+.nav-link:hover {
+    color: rgb(229, 206, 250) !important;
+    font-weight: bold;
+}
 .navbar {
     background-color: rgb(87, 17, 154) !important;
 }
@@ -24,6 +28,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .carousel-caption {
     background-color: rgba(101, 101, 101, 0.6);
     // margin: 15px;
@@ -59,13 +64,13 @@
         0px 0px 48.5px rgba(0, 0, 0, 0.38),
         0px 0px 49px rgba(0, 0, 0, 0.5);
 }
-
 .accordion-button:not(.collapsed) {
     color: white;
     background-color: rgba(101, 101, 101, 0.6);
 }
 #floatingInput {
     background-color: rgba(101, 101, 101, 0.6);
+    color: white;
     border-radius: 15px;
     backdrop-filter: blur(5px);
     box-shadow:
