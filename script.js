@@ -7,3 +7,14 @@ function scrollToTop() {
         behavior: "smooth"
     });
 }
+
+const yearChange = document.querySelector("#currentYear");
+yearChange.innerHTML = new Date().getFullYear();
+
+let getTimeandDate = () => {
+    let time = new Date().toLocaleTimeString();
+    let date = new Date().toLocaleDateString();
+    let timeandDate = `${date} ${time}`;
+    return timeandDate;
+} 
+console.log(getTimeandDate());
