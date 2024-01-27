@@ -1,19 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .nav-item {
   font-size: larger;
-  font-weight: light;
   letter-spacing: 2px;
 }
 
 .nav-link {
   color: white !important;
-  font-weight: bold;
-  letter-spacing: 2px;
 }
 
 .nav-link:hover {
   color: rgba(255, 255, 255, 0.665) !important;
-  font-weight: bold;
 }
 
 .navbar {
@@ -30,6 +33,12 @@
   background-image: url("assets/Img/bg-header.svg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.avatar {
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: 0px 0px 36px 21px rgba(255, 234, 0, 0.531) !important;
 }
 
 .carousel-caption {

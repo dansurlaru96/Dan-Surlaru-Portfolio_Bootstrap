@@ -25,7 +25,7 @@
 </head>
 <body>
     
-    <nav class="navbar nav nav-underline  navbar-collapse navbar-expand-md shadow-lg" data-bs-theme="dark">
+    <nav class="navbar nav nav-underline navbar-collapse navbar-expand-md shadow-lg" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="" href="#"><img width="60" src="assets/Img/logo.png" alt="Dan Surlaru"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,7 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">Acasă</a>
+                        <a class="nav-link" aria-current="page" href="#scrollspyHeading1">Acasă</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#scrollspyHeading2">Servicii</a>
@@ -62,7 +62,7 @@
         <div class="container-fluid p-5">
             <div class="row align-items-center text-center text-white">
                 <div class="col">
-                    <img class="rounded-circle shadow-lg" width="350" src="assets/Img/avatar.jpg" alt="Daniel Surlaru">
+                    <img class="avatar rounded-circle shadow-lg" width="350" src="assets/Img/avatar.jpg" alt="Daniel Surlaru">
                 </div>
                 <div class="col">
                     <h3 class="fw-light fs-larger p-5">Salut! Bine ai venit pe pagina mea oficială. Vei găsi o varietate largă de lucrări și compoziții muzicale proprii, cât și proiecte WEB.</h3>
@@ -330,14 +330,14 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <form action="submit">
+                    <form class="needs-validation" novalidate>
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="floatingInput" placeholder="Nume" required>
                             <label for="floatingInput">Nume</label>
                         </div>
                         <div class="form-floating mb-3">
                             <input type="email" class="form-control" id="floatingInput" placeholder="e-mail" required>
-                            <label for="floatingInput">e-mail</label>
+                            <label isEmail(str [, options]) for="floatingInput">e-mail</label>
                         </div>
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="floatingInput" placeholder="Subiect" required>
@@ -347,7 +347,7 @@
                             <textarea class="form-control" id="floatingInput" placeholder="Mesaj" id="floatingTextarea2" style="height: 100px" pattern="[a-zA-Z0-9]" required></textarea>
                             <label for="floatingTextarea2">Mesaj</label>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-lg mt-5">Trimite</button>
+                        <button type="submit" class="btn btn-success btn-lg mt-5 shadow ">Trimite</button>
                     </form>
                 </div>
             </div>
