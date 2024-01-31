@@ -1,5 +1,7 @@
 'use strict'
 
+
+// Form validation
 const forms = document.querySelectorAll('.needs-validation')
 
 Array.from(forms).forEach(form => {
@@ -8,15 +10,15 @@ Array.from(forms).forEach(form => {
             event.preventDefault()
             event.stopPropagation()
         }
-
         form.classList.add('was-validated')
     }, false)
 })
 
-
+// Tooltip
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
+// Scroll to top button
 function scrollToTop() {
     window.scrollTo({
         top: 0,
@@ -24,14 +26,6 @@ function scrollToTop() {
     });
 }
 
+// Change year in footer
 const yearChange = document.querySelector("#currentYear");
 yearChange.innerHTML = new Date().getFullYear();
-
-let getMyCurrentGeoLocation = () => {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-    } else {
-        console.log("Geolocation is not supported by this browser.");
-    }
-}
-console.log(getMyCurrentGeoLocation());
