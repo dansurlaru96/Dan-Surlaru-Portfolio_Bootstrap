@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 .nav-item {
@@ -113,4 +113,30 @@ footer {
     font-weight: bold;
     letter-spacing: 2px;
     padding: 20px;
+}
+
+.tooltip .tooltip-inner {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16px;
+}
+.tooltip {
+    backdrop-filter: blur(10px);
+}
+
+#myChart {
+    color: white;
+    background-color: rgba(221, 221, 221, 0.423);
+    padding: auto;
+    margin: 15px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    background-size: cover;
+    flex-wrap: nowrap;
+    text-wrap: nowrap;
+    box-shadow:
+        0px 0px 48.5px rgba(0, 0, 0, 0.38),
+        0px 0px 49px rgba(0, 0, 0, 0.5);
 }

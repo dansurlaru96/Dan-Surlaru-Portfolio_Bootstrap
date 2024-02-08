@@ -1,5 +1,34 @@
 'use strict'
 
+//chart
+// const ctx = document.getElementById('myChart').getContext('2d');
+// const myChart = new Chart(ctx, {
+//     type: 'pie',
+//     data: {
+//         labels: ['HTML', 'SCSS', 'CSS', 'JavaScript'],
+//         datasets: [{
+//             label: 'Cod utilizat',
+//             data: [82.8, 7.6, 7.4, 2.2,],
+//             backgroundColor: [
+//               'RGB(226, 75, 37)',
+//               'RGB(197, 83, 139)',
+//               'RGB(85, 61, 124)',
+//               'RGB(240, 223, 89)',
+//             ],
+//             borderColor: [
+//               'RGB(226, 75, 37)',
+//               'RGB(197, 83, 139)',
+//               'RGB(85, 61, 124)',
+//               'RGB(240, 223, 89)',
+//             ],
+//             legend: {
+//                 display: false
+//             },
+//             hoverOffset: 4
+//         }]
+//     }
+// });
+
 
 // Form validation
 const forms = document.querySelectorAll('.needs-validation')
