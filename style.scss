@@ -1,142 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .nav-item {
-    font-size: larger;
-    letter-spacing: 2px;
+  font-size: larger;
+  letter-spacing: 2px;
 }
 .nav-link {
-    color: white !important;
-    // font-weight: bold;
+  color: white !important;
+  // font-weight: bold;
 }
 .nav-link:hover {
-    color: rgba(255, 255, 255, 0.665) !important;
+  color: rgba(255, 255, 255, 0.665) !important;
 }
 .navbar {
-    background-color: rgb(87, 17, 154) !important;
+  background-color: rgb(87, 17, 154) !important;
 }
 .navbar-nav {
-    padding-right: 2%;
-    padding-left: 2%;
-    gap: 20px;
+  padding-right: 2%;
+  padding-left: 2%;
+  gap: 20px;
 }
 
 .jumbotron {
-    background-image: url('assets/Img/bg-header.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("assets/Img/bg-header.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .avatar {
-    object-fit: cover;
-    -webkit-box-shadow:0px 0px 36px 21px rgba(255, 234, 0, 0.608) !important;
-    -moz-box-shadow: 0px 0px 36px 21px rgba(255, 234, 0, 0.596);
-    box-shadow: 0px 0px 36px 21px rgba(255, 234, 0, 0.531) !important;
+  object-fit: cover;
+  -webkit-box-shadow: 0px 0px 36px 21px rgba(255, 234, 0, 0.608) !important;
+  -moz-box-shadow: 0px 0px 36px 21px rgba(255, 234, 0, 0.596);
+  box-shadow: 0px 0px 36px 21px rgba(255, 234, 0, 0.531) !important;
 }
 
 .carousel-caption {
-    background-color: rgba(101, 101, 101, 0.6);
-    // margin: 15px;
-    padding: 20px;
-    border-radius: 15px;
-    backdrop-filter: blur(5px);
-    box-shadow:
-        0px 0px 48.5px rgba(0, 0, 0, 0.38),
-        0px 0px 49px rgba(0, 0, 0, 0.5);
+  background-color: rgba(101, 101, 101, 0.6);
+  // margin: 15px;
+  padding: 20px;
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 48.5px rgba(0, 0, 0, 0.38),
+    0px 0px 49px rgba(0, 0, 0, 0.5);
 }
 
 .accordion-button {
-    color: white;
-    background-color: rgba(101, 101, 101, 0.6);
+  color: white;
+  background-color: rgba(101, 101, 101, 0.6);
 }
 .accordion-body {
-    background-color: rgba(101, 101, 101, 0.6);
+  background-color: rgba(101, 101, 101, 0.6);
 }
 .accordion-collapse {
-    color: white;
-    font-size: medium;
-    background-color: rgba(101, 101, 101, 0.6);
+  color: white;
+  font-size: medium;
+  background-color: rgba(101, 101, 101, 0.6);
 }
 .accordion-flush {
-    background-color: rgba(101, 101, 101, 0.6);
-    font-size: x-large;
+  background-color: rgba(101, 101, 101, 0.6);
+  font-size: x-large;
 }
 .accordion-item {
-    background-color: rgba(101, 101, 101, 0.6);
-    border-radius: 15px;
-    backdrop-filter: blur(5px);
-    box-shadow:
-        0px 0px 48.5px rgba(0, 0, 0, 0.38),
-        0px 0px 49px rgba(0, 0, 0, 0.5);
+  background-color: rgba(101, 101, 101, 0.6);
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 48.5px rgba(0, 0, 0, 0.38),
+    0px 0px 49px rgba(0, 0, 0, 0.5);
 }
 .accordion-button:not(.collapsed) {
-    color: white;
-    background-color: rgba(101, 101, 101, 0.6);
+  color: white;
+  background-color: rgba(101, 101, 101, 0.6);
 }
 #floatingInput {
-    background-color: rgba(101, 101, 101, 0.6);
-    color: white;
-    border-radius: 15px;
-    backdrop-filter: blur(5px);
-    box-shadow:
-        0px 0px 48.5px rgba(0, 0, 0, 0.38),
-        0px 0px 49px rgba(0, 0, 0, 0.5);
+  background-color: rgba(101, 101, 101, 0.6);
+  color: white;
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 48.5px rgba(0, 0, 0, 0.38),
+    0px 0px 49px rgba(0, 0, 0, 0.5);
 }
 
 #scrollToTopButton {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: rgba(0, 106, 255, 0.8);
-    border-radius: 15px;
-    box-shadow:
-    0px 0px 40px rgba(0, 0, 0, 0.65);
-    backdrop-filter: blur(5px);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 106, 255, 0.8);
+  border-radius: 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(5px);
 }
 
 #scrollToTopButton:hover {
-    background-color: rgba(0, 106, 255, 1);
-    box-shadow:
-    0px 0px 40px rgba(0, 0, 0, 0.65);
-    backdrop-filter: blur(5px);
+  background-color: rgba(0, 106, 255, 1);
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(5px);
 }
 
 footer {
-    background-color: rgb(87, 17, 154);
-    color: white;
-    font-size: medium;
-    font-weight: bold;
-    letter-spacing: 2px;
-    padding: 20px;
+  background-color: rgb(87, 17, 154);
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 20px;
 }
 
 .tooltip .tooltip-inner {
-    background-color: #000000;
-    color: #ffffff;
-    border-radius: 5px;
-    padding: 8px;
-    font-size: 16px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 16px;
 }
 .tooltip {
-    backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 
 #myChart {
-    color: white;
-    background-color: rgba(221, 221, 221, 0.423);
-    padding: auto;
-    margin: 15px;
-    border-radius: 15px;
-    backdrop-filter: blur(10px);
-    background-size: cover;
-    flex-wrap: nowrap;
-    text-wrap: nowrap;
-    box-shadow:
-        0px 0px 48.5px rgba(0, 0, 0, 0.38),
-        0px 0px 49px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: rgba(221, 221, 221, 0.423);
+  padding: auto;
+  margin: 15px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  background-size: cover;
+  flex-wrap: nowrap;
+  text-wrap: nowrap;
+  box-shadow: 0px 0px 48.5px rgba(0, 0, 0, 0.38),
+    0px 0px 49px rgba(0, 0, 0, 0.5);
+}
+
+.alert-warning {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+.alert-warning:hover {
+  color: #856404;
+  background-color: #ffe8a1;
+  border-color: #ffdf7e;
+  transition: all 0.5s ease;
 }
