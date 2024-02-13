@@ -58,3 +58,12 @@ function scrollToTop() {
 // Change year in footer
 const yearChange = document.querySelector("#currentYear");
 yearChange.innerHTML = new Date().getFullYear();
+
+// Modal window
+
+const myModal = document.getElementById("myModal");
+const myInput = document.getElementById("myInput");
+
+myModal.addEventListener("shown.bs.modal", () => {
+  myInput.focus();
+});
