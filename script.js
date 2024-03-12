@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 
 //chart
 // const ctx = document.getElementById('myChart').getContext('2d');
@@ -29,30 +29,37 @@
 //     }
 // });
 
-
 // Form validation
-const forms = document.querySelectorAll('.needs-validation')
+const forms = document.querySelectorAll(".needs-validation");
 
-Array.from(forms).forEach(form => {
-    form.addEventListener('submit', event => {
-        if (!form.checkValidity()) {
-            event.preventDefault()
-            event.stopPropagation()
-        }
-        form.classList.add('was-validated')
-    }, false)
-})
+Array.from(forms).forEach((form) => {
+  form.addEventListener(
+    "submit",
+    (event) => {
+      if (!form.checkValidity()) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+      form.classList.add("was-validated");
+    },
+    false
+  );
+});
 
 // Tooltip
-const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+const tooltipTriggerList = document.querySelectorAll(
+  '[data-bs-toggle="tooltip"]'
+);
+const tooltipList = [...tooltipTriggerList].map(
+  (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+);
 
 // Scroll to top button
 function scrollToTop() {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
 }
 
 // Change year in footer
@@ -60,10 +67,22 @@ const yearChange = document.querySelector("#currentYear");
 yearChange.innerHTML = new Date().getFullYear();
 
 // Modal window
-
 const myModal = document.getElementById("myModal");
 const myInput = document.getElementById("myInput");
 
 myModal.addEventListener("shown.bs.modal", () => {
   myInput.focus();
 });
+
+// Person object
+
+let person = {
+  firstName: `Daniel`,
+  lastName: `Surlaru`,
+  age: 28,
+  email: `surlaru@bk.ru`,
+};
+console.log(person);
+
+let navItems = document.querySelectorAll(".nav-item");
+console.log("navItems", navItems);

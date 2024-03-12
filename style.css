@@ -37,7 +37,7 @@
 
 .avatar {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   box-shadow: 0px 0px 36px 21px rgba(255, 234, 0, 0.531) !important;
 }
 
@@ -46,9 +46,8 @@
   padding: 20px;
   border-radius: 15px;
   -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
-  box-shadow: 0px 0px 48.5px rgba(0, 0, 0, 0.38),
-    0px 0px 49px rgba(0, 0, 0, 0.5);
+          backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 48.5px rgba(0, 0, 0, 0.38), 0px 0px 49px rgba(0, 0, 0, 0.5);
 }
 
 .accordion-button {
@@ -75,9 +74,8 @@
   background-color: rgba(101, 101, 101, 0.6);
   border-radius: 15px;
   -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
-  box-shadow: 0px 0px 48.5px rgba(0, 0, 0, 0.38),
-    0px 0px 49px rgba(0, 0, 0, 0.5);
+          backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 48.5px rgba(0, 0, 0, 0.38), 0px 0px 49px rgba(0, 0, 0, 0.5);
 }
 
 .accordion-button:not(.collapsed) {
@@ -90,9 +88,8 @@
   color: white;
   border-radius: 15px;
   -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
-  box-shadow: 0px 0px 48.5px rgba(0, 0, 0, 0.38),
-    0px 0px 49px rgba(0, 0, 0, 0.5);
+          backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 48.5px rgba(0, 0, 0, 0.38), 0px 0px 49px rgba(0, 0, 0, 0.5);
 }
 
 #scrollToTopButton {
@@ -103,14 +100,14 @@
   border-radius: 15px;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.65);
   -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
 }
 
 #scrollToTopButton:hover {
   background-color: rgb(0, 106, 255);
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.65);
   -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
 }
 
 footer {
@@ -132,7 +129,7 @@ footer {
 
 .tooltip {
   -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
 }
 
 #myChart {
@@ -142,23 +139,22 @@ footer {
   margin: 15px;
   border-radius: 15px;
   -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
   background-size: cover;
   flex-wrap: nowrap;
   text-wrap: nowrap;
-  box-shadow: 0px 0px 48.5px rgba(0, 0, 0, 0.38),
-    0px 0px 49px rgba(0, 0, 0, 0.5);
-} 
-
-#exampleModal {
-  background-color: rgba(27, 27, 27, 0.18);
-  /* color: white; */
-  border-radius: 15px;
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
-  box-shadow: 0px 0px 48.5px rgba(0, 0, 0, 0.38),
-    0px 0px 49px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 48.5px rgba(0, 0, 0, 0.38), 0px 0px 49px rgba(0, 0, 0, 0.5);
 }
 
+.alert-warning {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
 
-/*# sourceMappingURL=style.css.map */
+.alert-warning:hover {
+  color: #856404;
+  background-color: #ffe8a1;
+  border-color: #ffdf7e;
+  transition: all 0.5s ease;
+}/*# sourceMappingURL=style.css.map */
