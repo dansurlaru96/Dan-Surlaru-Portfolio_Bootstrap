@@ -74,15 +74,3 @@ myModal.addEventListener("shown.bs.modal", () => {
   myInput.focus();
 });
 
-// Person object
-
-let person = {
-  firstName: `Daniel`,
-  lastName: `Surlaru`,
-  age: 28,
-  email: `surlaru@bk.ru`,
-};
-console.log(person);
-
-let navItems = document.querySelectorAll(".nav-item");
-console.log("navItems", navItems);
